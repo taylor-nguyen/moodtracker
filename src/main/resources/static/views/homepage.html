@@ -1,0 +1,29 @@
+
+<div class="container text-center">
+<h3>How do you feel today?</h3>
+<div class="form-group">
+	<label class="radio-inline">
+      <input type="radio" ng-model="selectedMood" value="happy">Happy
+    </label>
+    <label class="radio-inline">
+      <input type="radio" ng-model="selectedMood" value="normal">Just normal really
+    </label>
+    <label class="radio-inline">
+      <input type="radio" ng-model="selectedMood" value="meh">A bit 'meh'
+    </label>
+    <label class="radio-inline">
+      <input type="radio" ng-model="selectedMood" value="grumpy">Grumpy
+    </label>
+    <label class="radio-inline">
+      <input type="radio" ng-model="selectedMood" value="stressed">Stressed out - not a happy camper
+    </label>
+</div>
+<div class="form-group">
+	<p class="pull-right remaining-chars">{{350 - message.length}} characters left</p>
+	<textarea class="form-control" rows="5" ng-model="message" placeholder="Message (Optional)"></textarea>
+</div>
+
+<div>
+<button type="button" class="btn btn-success pull-right" ng-click="submit()" >Submit</button>
+</div>
+</div>
