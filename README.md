@@ -1,9 +1,4 @@
-This is a small mood tracker web application that captures the mood of individual, using:
-1. Spring Boot 1.5.4
-2. SpringMVC 4.3.9
-2. MySQL 5.x
-3. AngularJS 1.x
-4. Bootstrap 3.x
+This is a small mood tracker web application that demonstrates the integration of several technologies, including Spring, Hibernate, MySQL, AngularJs and Bootstrap.
 
 Steps to run:
 1. Run db_query.sql (under src/main/resources/static/db) to set up database and table
